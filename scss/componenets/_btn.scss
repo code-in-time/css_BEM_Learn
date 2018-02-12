@@ -1,0 +1,26 @@
+/**
+
+    This is the style for a btn
+
+
+**/
+
+.btn {
+    outline: none;
+    line-height: 1.2;
+    font-size: 1rem;
+    display: block;
+    text-transform: uppercase;
+    @extend %fontPrimary;
+}
+
+.btn--small {
+    line-height: 1;
+    font-size: 0.97rem;
+}
+
+.btn--large {
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
