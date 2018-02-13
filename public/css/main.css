@@ -302,10 +302,53 @@ template {
 
     These are the variables for this project
 
+    All color begin with c_
 
 **/
+/**
+ * The colors available.
+ **/
+/**
+ * Organinising the colors
+ */
 .btn {
   font-family: 'Roboto', sans-serif; }
+
+/**
+ *  These are helper classes 
+ * 
+ */
+/** Padding helpers **/
+.padding_bottom_10px {
+  padding-bottom: 10px; }
+
+.padding_right_10px {
+  padding-right: 10px; }
+
+.padding_bottom_10px {
+  padding-bottom: 10px; }
+
+.padding_left_10px {
+  padding-left: 10px; }
+
+.padding_10px {
+  padding: 10px; }
+
+/** Margin helpers **/
+.margin_bottom_10px {
+  margin-bottom: 10px; }
+
+.margin_right_10px {
+  margin-right: 10px; }
+
+.margin_bottom_10px {
+  margin-bottom: 10px; }
+
+.margin_left_10px {
+  margin-left: 10px; }
+
+.margin_10px {
+  margin: 10px; }
 
 /**
 
@@ -313,21 +356,50 @@ template {
 
 
 **/
+/* Block element - btn */
 .btn {
   outline: none;
   line-height: 1.2;
   font-size: 1rem;
   display: block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: none; }
+  .btn:hover {
+    background-color: #8a7dff; }
 
+.btn_inner {
+  display: flex; }
+
+.btn_inner_left {
+  width: 70%; }
+
+.btn_inner_right {
+  width: 30%; }
+
+/**
+    Modifiers
+**/
 .btn--small {
   line-height: 1;
   font-size: 0.97rem; }
 
 .btn--large {
   line-height: 1.5;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  width: 300px; }
 
+.btn--default {
+  background-color: #b0eb00; }
+
+.btn--error {
+  background-color: #b30015; }
+
+/**
+ * 
+ */
 html, body {
   font-size: 100%;
   line-height: 1.2; }
+
+button {
+  padding: 0; }

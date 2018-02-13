@@ -2,10 +2,34 @@
 
     These are the variables for this project
 
+    All color begin with c_
 
 **/
-$primary: green;
-$secondary: yellow;
+
+/**
+ * The colors available.
+ **/
+$c_lime: #b0eb00;
+$c_bright-red: #b30015;
+$c_dark-blue: #2a00b3;
+$c_deep-cerulean: #0077b3;
+$c_bondi-blue: #00b0b3;
+$c_cyan: #24fbff;
+$c_heliotrope: #8a7dff;
+$c_silver-chalice: #a6a6a6;
+$c_scorpion: #595959;
+$c_tundora: #444;
+$c_mine-shaft: #363636;
+$c_cod-gray: #111;
+
+
+
+/**
+ * Organinising the colors
+ */
+$c_primary: $c_lime;
+$c_secondary: $c_cyan;
+
 
 
 

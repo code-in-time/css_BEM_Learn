@@ -5,6 +5,7 @@
 
 **/
 
+/* Block element - btn */
 .btn {
     outline: none;
     line-height: 1.2;
@@ -12,7 +13,26 @@
     display: block;
     text-transform: uppercase;
     @extend %fontPrimary;
+    border: none;
+    &:hover {
+        background-color: $c_heliotrope;
+    }
 }
+
+.btn_inner {
+    display: flex;
+}
+.btn_inner_left {
+    width: 70%;
+}
+
+.btn_inner_right {
+    width: 30%;
+}
+
+/**
+    Modifiers
+**/
 
 .btn--small {
     line-height: 1;
@@ -22,5 +42,13 @@
 .btn--large {
     line-height: 1.5;
     font-size: 1.5rem;
+    width: 300px;
 }
 
+.btn--default {
+    background-color:  $c_primary;
+}
+
+.btn--error {
+    background-color:  $c_bright-red;
+}
